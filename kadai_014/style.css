@@ -1,0 +1,33 @@
+/* 文字色ピンクに変更 */
+.pinkfont {
+  color: rgb(255, 192, 203);
+}
+
+/* 文字色をスカイブルーに変更 */
+.skybluefont {
+  color: skyblue;
+}
+
+/*H1のMYPROFILEの設定*/
+.myprofile {
+  letter-spacing: 1.2em; /*文字間の変更*/
+  text-decoration: underline 3px rgb(115, 115, 114); /*指定の色の下線を引く*/
+  text-shadow: 1px 1px 2px gray; /*文字に影をつける*/
+  font-family: "Josefin Sans", sans-serif; /*Goglefontの適用*/
+  font-size: 2rem; /*ルート要素のフォントサイズの倍を指定*/
+}
+
+body {
+  text-align: center; /* 中央揃え */
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/*ルート要素(html要素)のフォントサイズを20pxに*/
+:root {
+  font-size: 20px;
+}
+
+/*子要素の文字を太くする*/
+#parent > p {
+  font-weight: bold;
+}
