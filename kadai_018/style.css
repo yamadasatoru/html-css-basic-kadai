@@ -6,6 +6,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-child {
@@ -21,6 +23,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #ffd9df;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #middle-child01 {
@@ -56,6 +60,8 @@
   height: 300px;
   background-color: #87ceeb;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #bottom-child01 {
