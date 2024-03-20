@@ -58,6 +58,12 @@ PC用のスタイル
   #nav-pc > a:active {
     color: #0d0d0d;
   }
+
+  /* PC表示の際はハンバーガーメニュー画像と表記を消す */
+  #menu-sp,
+  #nav-sp {
+    display: none;
+  }
 }
 
 /*====================
